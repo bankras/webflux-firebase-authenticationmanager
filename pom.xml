@@ -19,7 +19,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <spring.security.version>5.1.5.RELEASE</spring.security.version>
+        <spring.version>[5.1.13,)</spring.version>
+        <spring.security.version>[5.1.13,)</spring.security.version>
 	</properties>
 
 	<dependencies>
@@ -36,7 +37,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webflux</artifactId>
-            <version>5.1.4.RELEASE</version>
+            <version>${spring.version}</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
